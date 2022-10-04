@@ -27,7 +27,7 @@ AvgD = promedio de las variaciones a la baja del precio en el período N conside
 
 En el grafico se termina viendo como un Oscilador:
 
-![image](https://user-images.githubusercontent.com/99511913/193710002-5ea65424-c7be-4780-adfe-d0b501c410bd.png)
+![image](https://user-images.githubusercontent.com/99511913/193710160-a0b68456-82f3-478a-a639-c808dcf77067.png)
 
 
 # Reglas:
