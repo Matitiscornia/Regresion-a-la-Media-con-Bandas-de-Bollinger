@@ -28,7 +28,7 @@ FORMULA:
 
 ![image](https://user-images.githubusercontent.com/99511913/193709290-71bc616b-1586-4790-b65f-959e116832e4.png)
 
-En el grafico se termina viendo como un Oscilador:
+En el grafico se termina viendo como un Oscilador que nos indica la fuerza y dirección del precio:
 
 ![image](https://user-images.githubusercontent.com/99511913/193710160-a0b68456-82f3-478a-a639-c808dcf77067.png)
 
