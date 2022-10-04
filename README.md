@@ -1,5 +1,17 @@
 # Estrategia de Regresion a la Media utilizando Bandas de Bollinger 
-Esta es una estrategia centrada de comercio centrada en buscar una regresión a la media movil, utilizando Bandas de Bollinger para determinar cuando el precio esta muy alejado de la misma, y el RSI para filtrar tendencias agresivas.
+Esta es una estrategia de comercio centrada en buscar la regresión a la media movil, utilizando Bandas de Bollinger para determinar cuando el precio esta lejos de la media, una SMA para determinar el Take Profit y el RSI para filtrar tendencias agresivas.
+
+# Bandas de Bollinger
+
+Tiene 3 partes:
+
+1) Media Movil (20 Periodos)
+2) Banda Superior = Media Movil + 2 * Desviaciones Estandar
+3) Banda Inferior = Media Movil - 2 * Desviaciones Estandar
+
+Esto nos va a terminar creando un canal de la siguiente manera:
+
+![image](https://user-images.githubusercontent.com/99511913/193709042-4b812905-eccc-48a8-b594-cb388ab5a91b.png)
 
 
 # Reglas:
@@ -8,3 +20,8 @@ Esta es una estrategia centrada de comercio centrada en buscar una regresión a 
 2) En la 1era vela en que se vuelva a entrar abrimos una posicion buscando la media como objetivo
 3) Solo se operara cuando el RSI se encuentre entre los valores de 30 y 70 para filtrar tendencias fuertes.
 
+# Stop Loss y Take Profit
+
+SL: 1,5% fijo
+TP: Media Movil (20)
+NOTA: Podria considerar como TP2 la Banda Opuesta si
