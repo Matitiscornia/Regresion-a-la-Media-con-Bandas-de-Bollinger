@@ -38,4 +38,4 @@ En el grafico se termina viendo como un Oscilador:
 
 SL: 1,5% fijo  
 TP: Media Movil (20)  
-NOTA: Podria considerar como TP2 la Banda Opuesta si 
+NOTA: Podria considerar como TP2 la Banda Opuesta, sin embargo esto correra por su cuenta ya que no forma parte de la estrategia. 
