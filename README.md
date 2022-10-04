@@ -22,18 +22,21 @@ Se calcula con los siguientes elementos:
 AvgU = promedio de las variaciones al alza del precio en el período N considerado.
 AvgD = promedio de las variaciones a la baja del precio en el período N considerado.
 
-
+FORMULA:
 ![image](https://user-images.githubusercontent.com/99511913/193709290-71bc616b-1586-4790-b65f-959e116832e4.png)
 
 En el grafico se termina viendo como un Oscilador:
 
 ![image](https://user-images.githubusercontent.com/99511913/193710160-a0b68456-82f3-478a-a639-c808dcf77067.png)
 
+Setearemos el mismo en 20 periodos y la zona en la que buscaremos operaciones se ubicara entre 35 y 65 puntos del Oscilador. 
+
+
 
 # Reglas:
 
 1) Se espera a que el precio salga de uno de los extremos del canal
-2) En la 1era vela en que se vuelva a entrar abrimos una posicion buscando la media como objetivo
+2) En la 1era vela en que el precio de cierre este dentro del canal abriremos una posicion buscando la media como objetivo
 3) Solo se operara cuando el RSI se encuentre entre los valores de 30 y 70 para filtrar tendencias fuertes.
 
 # Stop Loss y Take Profit
@@ -41,3 +44,7 @@ En el grafico se termina viendo como un Oscilador:
 SL: 1,5% fijo  
 TP: Media Movil (20)  
 NOTA: Podria considerar como un Segundo Take Profit la Banda Opuesta, sin embargo esto correra por su cuenta ya que no forma parte de la estrategia. 
+
+Ejemplo Operacion:
+
+![image](https://user-images.githubusercontent.com/99511913/193711078-19590ef2-cfb0-4779-a571-603f816dfe87.png)
