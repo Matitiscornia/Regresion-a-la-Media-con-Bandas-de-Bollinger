@@ -1,0 +1,99 @@
+//@version=5
+
+
+//Version 39 era la previa a las zonas
+
+
+strategy("Bollinger Bands Estrategia 1.0", overlay=true)
+source = close
+length = input.int(20, minval=1)
+lengthrsi = input.int(20, minval=1)
+mult = input.float(2.0, minval=0.001, maxval=50)
+
+basis = ta.sma(source, length)
+dev = mult * ta.stdev(source, length)
+upper = basis + dev
+lower = basis - dev
+
+
+
+//STOP Y TAKE
+var SL = 0.0
+var TP= 0.0
+
+stop_loss = input.float(defval=2.5, title= "Porcentaje Stop Loss" , step=0.2)
+take_profit = input.float(defval=3, title= "Porcentaje Take Profit", step=0.2)
+
+
+
+// ---------- RSI ----------
+
+overSold = input( 30 )
+overBought = input( 70 )
+NormalTop = input (55)
+NormalBottom = input (45)
+price = close
+vrsi = ta.rsi(price, lengthrsi)
+
+
+
+Sobreventa = vrsi <= overSold
+Semiventa = vrsi <= NormalBottom
+Sobrecompra = vrsi >= overBought
+Semicompra = vrsi >= NormalTop
+
+
+
+// ----------CONDICIONES DE ENTRADA -----------
+
+
+buyEntry = ta.crossover(source, lower)  
+sellEntry = ta.crossunder(source, upper)
+
+
+// ----------CONDICIONES SALIDA// ----------
+
+
+
+closeBuy = ta.crossover(source, upper)
+closeSell = ta.crossunder(source, lower)
+
+//LONG
+if(not(Sobreventa))
+    if (ta.crossover(source, lower))
+	    strategy.entry("BBandLE", strategy.long, oca_name="BollingerBands", oca_type=strategy.oca.cancel, comment="BBandLE")
+        SL:= close * (1 - (stop_loss /100) )
+	    TP:= upper
+
+else
+	strategy.cancel(id="BBandLE")
+	
+	
+//SHORT
+if(not(Sobrecompra))
+    if (ta.crossunder(source, upper) )
+	    strategy.entry("BBandSE", strategy.short, oca_name="BollingerBands", oca_type=strategy.oca.cancel, comment="BBandSE")
+        SL:= close * (1 + (stop_loss /100) )
+        TP:= lower
+        
+else
+	strategy.cancel(id="BBandSE")
+	
+	
+if(close <= TP or low <= TP)                 // ------------------STOP LOSS SHORT--------------------
+    strategy.close("BBandSE", comment = "TP SHORT")
+
+
+if(close >= SL or high >= SL)
+    strategy.close("BBandSE", comment = "SL SHORT")
+   
+
+if(close >= TP or high >= TP)
+    strategy.close("BBandLE", comment = "TP BUY")
+    
+if(close <= SL or low <= SL)
+    strategy.close("BBandLE", comment = "SL BUY")
+	
+	
+	
+//plot(strategy.equity, title="equity", color=color.red, linewidth=2, style=plot.style_areabr)
