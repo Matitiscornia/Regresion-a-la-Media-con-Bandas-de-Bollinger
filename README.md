@@ -3,6 +3,8 @@ Esta es una estrategia de comercio centrada en buscar la regresión a la media m
 
 IMPORTANTE: Esto no es un consejo financiero. Si desea utilizar la estrategia, hagalo bajo su propio riesgo
 
+ACLARACION: Este script NO es un bot de trading, esta diseñado para testear un patron y sacar información valiosa. Sin embargo puede automatizarse utilizando el webhook de tradingview y una plataforma que soporte el mismo, tales como Quadency.
+
 # Bandas de Bollinger
 
 Este indicador esta compuesto de la siguiente manera:
