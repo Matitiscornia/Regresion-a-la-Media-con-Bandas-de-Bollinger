@@ -45,6 +45,13 @@ SL: 1,5% fijo
 TP: Media Movil (20)  
 NOTA: Podria considerar como un Segundo Take Profit la Banda Opuesta, sin embargo esto correra por su cuenta ya que no forma parte de la estrategia. 
 
-Ejemplo Operacion:
+# Ejemplo Operacion
 
 ![image](https://user-images.githubusercontent.com/99511913/193711150-c0fe85cc-b26c-4ea6-af73-a83e8063e590.png)
+
+# Pruebas en los ultimos 2 meses (Backtest)
+
+![image](https://user-images.githubusercontent.com/99511913/193711324-e6d178c5-f03b-41e1-941d-f8eafa6b23e2.png)
+
+
+
