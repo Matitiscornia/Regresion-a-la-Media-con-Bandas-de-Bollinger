@@ -53,7 +53,7 @@ NOTA: Podria considerar como un Segundo Take Profit la Banda Opuesta, sin embarg
 Fuente de los datos historicos: Bitstamp.
 
   
-IMPORTANTE: Esta muestra es demasiado chica, que los numeros den bien en un intervalo de 2 meses no significa que la estrategia sea rentable. Le recomiendo realizar un backtest de al menos 2-5 años y probarla en diferentes pares para ver como se comporta en distintas situaciones.
+IMPORTANTE: Esta muestra es demasiado chica, que los numeros den bien en un intervalo de 2 meses no significa que la estrategia sea rentable. Le recomiendo realizar un backtest de al menos 2-5 años y probarla en diferentes pares.
     
 Cantidad de Operaciones de la muestra: 221    
 Rentabilidad: 30%   
