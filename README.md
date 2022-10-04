@@ -47,4 +47,4 @@ NOTA: Podria considerar como un Segundo Take Profit la Banda Opuesta, sin embarg
 
 Ejemplo Operacion:
 
-![image](https://user-images.githubusercontent.com/99511913/193711078-19590ef2-cfb0-4779-a571-603f816dfe87.png)
+![image](https://user-images.githubusercontent.com/99511913/193711150-c0fe85cc-b26c-4ea6-af73-a83e8063e590.png)
