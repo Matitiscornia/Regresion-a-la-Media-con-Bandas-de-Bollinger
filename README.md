@@ -9,9 +9,23 @@ Tiene 3 partes:
 2) Banda Superior = Media Movil + 2 * Desviaciones Estandar
 3) Banda Inferior = Media Movil - 2 * Desviaciones Estandar
 
-Esto nos va a terminar creando un canal de la siguiente manera:
+Esto nos va a terminar creando un "canal" en el que se busca incluir el 95% de las cotizaciones
+
+Se puede apreciar en el grafico de la siguiente manera:
 
 ![image](https://user-images.githubusercontent.com/99511913/193709042-4b812905-eccc-48a8-b594-cb388ab5a91b.png)
+
+# RSI (Indice de Fuerza Relativo)
+
+Se calcula con los siguientes elementos:
+
+AvgU = promedio de las variaciones al alza del precio en el período N considerado.
+AvgD = promedio de las variaciones a la baja del precio en el período N considerado.
+
+En el grafico se termina viendo como un Oscilador:
+
+![image](https://user-images.githubusercontent.com/99511913/193709290-71bc616b-1586-4790-b65f-959e116832e4.png)
+
 
 
 # Reglas:
