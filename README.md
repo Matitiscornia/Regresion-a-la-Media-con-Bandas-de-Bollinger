@@ -36,6 +36,6 @@ En el grafico se termina viendo como un Oscilador:
 
 # Stop Loss y Take Profit
 
-SL: 1,5% fijo
-TP: Media Movil (20)
-NOTA: Podria considerar como TP2 la Banda Opuesta si
+SL: 1,5% fijo  
+TP: Media Movil (20) 
+NOTA: Podria considerar como TP2 la Banda Opuesta si 
