@@ -1,4 +1,4 @@
-# Estrategia de Regresion a la Media utilizando Bandas de Bollinger 
+# Estrategia de Regresion a la Media utilizando Bandas de Bollinger en temporalidad de 15 minutos para el par BTC/USD
 Esta es una estrategia de comercio centrada en buscar la regresión a la media movil, utilizando Bandas de Bollinger para determinar cuando el precio esta lejos de la media, una SMA para determinar el Take Profit y el RSI para filtrar tendencias agresivas.
 
 # Bandas de Bollinger
@@ -49,9 +49,11 @@ NOTA: Podria considerar como un Segundo Take Profit la Banda Opuesta, sin embarg
 
 ![image](https://user-images.githubusercontent.com/99511913/193711150-c0fe85cc-b26c-4ea6-af73-a83e8063e590.png)
 
-# Pruebas en los ultimos 2 meses (Backtest)
+# Pruebas en los ultimos 2 meses en BTC/USD
+Fuente de los datos historicos: Bitstamp.
+
   
-IMPORTANTE: Esta muestra es demasiado chica, que los numeros den bien en un intervalo de 2 meses no significa que la estrategia sea rentable.   
+IMPORTANTE: Esta muestra es demasiado chica, que los numeros den bien en un intervalo de 2 meses no significa que la estrategia sea rentable. Le recomiendo realizar un backtest de al menos 2-5 años y probarla en diferentes pares para ver como se comporta en distintas situaciones.
     
 Cantidad de Operaciones de la muestra: 221    
 Rentabilidad: 30%   
