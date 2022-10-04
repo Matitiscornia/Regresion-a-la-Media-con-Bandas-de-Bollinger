@@ -3,7 +3,7 @@ Esta es una estrategia de comercio centrada en buscar la regresión a la media m
 
 # Bandas de Bollinger
 
-Tiene 3 partes:
+Este indicador esta compuesto de la siguiente manera:
 
 1) Media Movil (20 Periodos)
 2) Banda Superior = Media Movil + 2 * Desviaciones Estandar
@@ -38,4 +38,4 @@ En el grafico se termina viendo como un Oscilador:
 
 SL: 1,5% fijo  
 TP: Media Movil (20)  
-NOTA: Podria considerar como TP2 la Banda Opuesta, sin embargo esto correra por su cuenta ya que no forma parte de la estrategia. 
+NOTA: Podria considerar como un Segundo Take Profit la Banda Opuesta, sin embargo esto correra por su cuenta ya que no forma parte de la estrategia. 
