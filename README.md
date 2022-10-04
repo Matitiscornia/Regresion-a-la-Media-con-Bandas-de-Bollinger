@@ -24,7 +24,8 @@ Se calcula con los siguientes elementos:
 AvgU = promedio de las variaciones al alza del precio en el período N considerado.  
 AvgD = promedio de las variaciones a la baja del precio en el período N considerado.  
 
-FORMULA:
+FORMULA:  
+
 ![image](https://user-images.githubusercontent.com/99511913/193709290-71bc616b-1586-4790-b65f-959e116832e4.png)
 
 En el grafico se termina viendo como un Oscilador:
