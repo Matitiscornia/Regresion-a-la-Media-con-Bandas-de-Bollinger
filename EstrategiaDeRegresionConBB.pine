@@ -1,8 +1,16 @@
 //@version=5
+
+//Estrategia de Regresion a la Media utilizando Bandas de Bollinger 
+//1)Se espera a que el precio salga de uno de los extremos del canal
+//2)En la 1era vela en que se vuelva a entrar abrimos una posicion buscando la media como objetivo
+//3)Solo se operara cuando el RSI se encuentre entre los valores de 30 y 70 para filtrar tendencias fuertes.
+
+
+
 //Created by: Matias Jose Tiscornia
 //Github Repo: 
 
-strategy("Bollinger Bands Estrategia 1.0", overlay=true)
+strategy("EstrategiaDeRegresionConBB 1.0", overlay=true)
 source = close
 
 //input
