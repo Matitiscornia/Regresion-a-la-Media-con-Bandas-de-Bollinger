@@ -69,7 +69,7 @@ Maxima Caida en la cuenta (Max Drawdown): -13.74%
 
 
 
-![image](https://user-images.githubusercontent.com/99511913/193711324-e6d178c5-f03b-41e1-941d-f8eafa6b23e2.png)
+![image](https://user-images.githubusercontent.com/99511913/193713868-3cb22f2b-a5d1-4264-a6a6-6090c08376e8.png)
 
 
 
