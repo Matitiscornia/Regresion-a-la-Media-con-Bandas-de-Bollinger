@@ -8,7 +8,7 @@
 
 
 //Created by: Matias Jose Tiscornia
-//Github Repo: 
+//Github Repo: https://github.com/Matitiscornia/Regresion-a-la-Media-con-Bandas-de-Bollinger 
 
 strategy("EstrategiaDeRegresionConBB 1.0", overlay=true)
 source = close
