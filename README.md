@@ -52,15 +52,15 @@ NOTA: Podria considerar como un Segundo Take Profit la Banda Opuesta, sin embarg
 # Pruebas en los ultimos 2 meses (Backtest)
   
 IMPORTANTE: Esta muestra es demasiado chica, que los numeros den bien en un intervalo de 2 meses no significa que la estrategia sea rentable.   
-  
-Cantidad de Operaciones de la muestra: 221  
-Rentabilidad: 30% 
-Profit Factor(Ganancias Totales / Perdidas Totales): 1.447  
-Porcentaje de Operaciones Ganadoras: 73.76% 
-Operacion Ganadora Promedio: 0.5% 
-Operacion Perdedora Promedio: -0.94%  
-Operacion Ganadora Promedio/Operacion Perdedora Promedio: 0.522 
-Maxima Caida en la cuenta (Max Drawdown): -13.74% 
+    
+Cantidad de Operaciones de la muestra: 221    
+Rentabilidad: 30%   
+Profit Factor(Ganancias Totales / Perdidas Totales): 1.447    
+Porcentaje de Operaciones Ganadoras: 73.76%   
+Operacion Ganadora Promedio: 0.5%   
+Operacion Perdedora Promedio: -0.94%    
+Operacion Ganadora Promedio/Operacion Perdedora Promedio: 0.522   
+Maxima Caida en la cuenta (Max Drawdown): -13.74%   
 
 
 
